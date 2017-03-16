@@ -10,25 +10,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
-  <component name="SbtLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../Assignment-01" value="1488453167842" />
-        <entry key="$PROJECT_DIR$/../Assignment-01-Slick" value="1489394052075" />
-        <entry key="$PROJECT_DIR$/../Assignment-Play-Slick" value="1489484730212" />
-        <entry key="$PROJECT_DIR$/../Demo-Slick" value="1489125825726" />
-        <entry key="$PROJECT_DIR$/../Play-01-Assign" value="1488868415614" />
-        <entry key="$PROJECT_DIR$/../Play-Assignment-01-Assignment-02" value="1489055132000" />
-        <entry key="$PROJECT_DIR$/../Play-Assignment-Ajax" value="1489059748210" />
-        <entry key="$PROJECT_DIR$/../Slick-Assignment-01" value="1489340206196" />
-        <entry key="$PROJECT_DIR$" value="1489579468548" />
-        <entry key="$PROJECT_DIR$/../Try" value="1488707404255" />
-        <entry key="$USER_HOME$/Play-Assignment-01" value="1488449857711" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>

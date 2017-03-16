@@ -24,8 +24,12 @@ class ProjectComponentTest extends AsyncFunSuite {
   }
 
 
-  test("updating project"){
+  test("updating project by ID" ){
     ProjectComponent1.updateName(1,"dbms").map(x => assert(x == 1))
+  }
+
+  test("updating project by Name" ){
+    ProjectComponent1.updateIdForProject("fit-files",2).map(x => assert(x == 1))
   }
 
   test("fetching projects from id"){
@@ -38,6 +42,14 @@ class ProjectComponentTest extends AsyncFunSuite {
 
   test("testing joins with employee Table"){
     ProjectComponent1.projectsByEmployeeName.map(res=>assert(res==List(("anmol","code-squad"),("nitin","fit-files"))))
+  }
+
+  test("finding employees with minimum given experience"){
+    ProjectComponent1.projectsWithMinimumExperience(3).map(res=>assert(res==List(("anmol",5,"code-squad"),("nitin",5,"fit-files"))))
+  }
+
+  test("people working on given project"){
+    ProjectComponent1.peopleWorkingOnProject("fit-files").map(res=>assert(res==List(("nitin",5.0,"fit-files"))))
   }
 
   test("adding multiple projects") {

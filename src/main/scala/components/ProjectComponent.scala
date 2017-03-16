@@ -25,11 +25,16 @@ trait ProjectComponent extends ProjectTable {
   }
 
   def updateName(id: Int, name: String): Future[Int] = {
-    val query = employeeTableQuery.filter(x => x.id === id)
+    val query = projectTableQuery.filter(x => x.emp_id === id)
       .map(_.name).update(name)
     db.run(query)
   }
 
+def updateIdForProject(name:String,id:Int)={
+  val query = projectTableQuery.filter(x => x.name === name)
+    .map(_.emp_id).update(id)
+  db.run(query)
+}
 
   def insertOrUpdate(project: Project) = {
     val query = projectTableQuery.insertOrUpdate(project)
@@ -65,6 +70,27 @@ trait ProjectComponent extends ProjectTable {
         (e, p) <- employeeTableQuery join projectTableQuery on (_.id === _.emp_id)
       } yield (e.name, p.name)
     }.to[List].result
+    db.run(action)
+  }
+
+  def projectsWithMinimumExperience(exp:Double)={
+    val query = {
+      for {
+        (e, p) <- employeeTableQuery join projectTableQuery on ((e,p)=>e.id === p.emp_id)
+      } yield (e.name,e.experience,p.name)
+    }.filter(x=>x._2>exp)
+      val action =query.to[List].result
+    db.run(action)
+  }
+
+
+  def peopleWorkingOnProject(name:String)={
+    val query = {
+      for {
+        (e, p) <- employeeTableQuery join projectTableQuery on ((e,p)=>e.id === p.emp_id)
+      } yield (e.name,e.experience,p.name)
+    }.filter(x=>x._3===name)
+    val action =query.to[List].result
     db.run(action)
   }
 

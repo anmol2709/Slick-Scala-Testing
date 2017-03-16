@@ -1,6 +1,13 @@
 [0m[[0minfo[0m] [0m[32mEmployeeComponentTest:[0m[0m
 [0m[[0minfo[0m] [0m[32m- getting details[0m[0m
 [0m[[0minfo[0m] [0m[32m- inserting employee[0m[0m
-[0m[[0minfo[0m] [0m[32m- deleting employee[0m[0m
-[0m[[0minfo[0m] [0m[32m- updating employee[0m[0m
+[0m[[0minfo[0m] [0m[32m- deleting employee by ID[0m[0m
+[0m[[0minfo[0m] [0m[32m- deleting employee by Name[0m[0m
+[0m[[0minfo[0m] [0m[32m- getting name by id[0m[0m
+[0m[[0minfo[0m] [0m[32m- deleting employee by Experience[0m[0m
+[0m[[0minfo[0m] [0m[32m- updating employee Name[0m[0m
+[0m[[0minfo[0m] [0m[32m- updating employee Experience[0m[0m
 [0m[[0minfo[0m] [0m[32m- updating or inserting employee[0m[0m
+[0m[[0minfo[0m] [0m[32m- adding 2 employees[0m[0m
+[0m[[0minfo[0m] [0m[32m- testing Plain sql[0m[0m
+[0m[[0minfo[0m] [0m[32m- testing joins[0m[0m

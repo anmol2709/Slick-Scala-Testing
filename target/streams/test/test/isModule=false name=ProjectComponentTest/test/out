@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mProjectComponentTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- getting details[0m[0m
+[0m[[0minfo[0m] [0m[32m- inserting project[0m[0m
+[0m[[0minfo[0m] [0m[32m- deleting project by ID[0m[0m
+[0m[[0minfo[0m] [0m[32m- deleting project by Name[0m[0m
+[0m[[0minfo[0m] [0m[32m- updating project by ID[0m[0m
+[0m[[0minfo[0m] [0m[32m- updating project by Name[0m[0m
+[0m[[0minfo[0m] [0m[32m- fetching projects from id[0m[0m
+[0m[[0minfo[0m] [0m[32m- testing Plain sql[0m[0m
+[0m[[0minfo[0m] [0m[32m- testing joins with employee Table[0m[0m
+[0m[[0minfo[0m] [0m[32m- finding employees with minimum given experience[0m[0m
+[0m[[0minfo[0m] [0m[32m- people working on given project[0m[0m
+[0m[[0minfo[0m] [0m[32m- adding multiple projects[0m[0m

@@ -1,66 +1,70 @@
-[0m[[0mdebug[0m] [0m[naha] The models.EmployeeTable source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	employeeTableAutoInc.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) models.EmployeeTable: Set(); now invalidating by inheritance (internally).[0m
-[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
-[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) models.EmployeeTable.[0m
-[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala. This dependency is not being considered for invalidation.[0m
-[0m[[0mdebug[0m] [0m[naha] The models.Employee source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	employeeTableAutoInc.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) models.Employee: Set(); now invalidating by inheritance (internally).[0m
-[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
-[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) models.Employee.[0m
-[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala. This dependency is not being considered for invalidation.[0m
-[0m[[0mdebug[0m] [0m[naha] The models.Employee$ source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	employeeTableAutoInc.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) models.Employee$: Set(); now invalidating by inheritance (internally).[0m
-[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
-[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) models.Employee$.[0m
-[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala. This dependency is not being considered for invalidation.[0m
-[0m[[0mdebug[0m] [0m[naha] The components.EmployeeComponent source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	insert, employeeTableAutoInc.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) components.EmployeeComponent: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala); now invalidating by inheritance (internally).[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
-[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) components.EmployeeComponent.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala: Set(insert)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/providers/H2Provider.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set(/home/knoldus/Desktop/Assignment-01-Slick/target/scala-2.12/test-classes/components/EmployeeComponent1$.class, /home/knoldus/Desktop/Assignment-01-Slick/target/scala-2.12/test-classes/components/EmployeeComponent1.class, /home/knoldus/Desktop/Assignment-01-Slick/target/scala-2.12/test-classes/components/EmployeeComponentTest.class, /home/knoldus/Desktop/Assignment-01-Slick/target/scala-2.12/test-classes/providers/H2Provider.class)[0m
-[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set(NamesChange(models.EmployeeTable,ModifiedNames(regularNames = employeeTableAutoInc, implicitNames = )), NamesChange(models.Employee,ModifiedNames(regularNames = employeeTableAutoInc, implicitNames = )), NamesChange(models.Employee$,ModifiedNames(regularNames = employeeTableAutoInc, implicitNames = )), NamesChange(components.EmployeeComponent,ModifiedNames(regularNames = insert, employeeTableAutoInc, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/providers/H2Provider.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m[naha] 	product: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/providers/H2Provider.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	external source: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala)[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/providers/H2Provider.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/providers/H2Provider.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/knoldus/Desktop/Assignment-01-Slick/target/scala-2.12/test-classes...[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /home/knoldus/Desktop/Slick-Scala-Testing/target/scala-2.12/test-classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 1af010b9, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 57b9a509, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/home/knoldus/Desktop/Assignment-01-Slick/target/scala-2.12/test-classes:/home/knoldus/Desktop/Assignment-01-Slick/target/scala-2.12/classes:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/bundles/slick-hikaricp_2.12-3.2.0.jar:/home/knoldus/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/knoldus/.ivy2/cache/org.postgresql/postgresql/bundles/postgresql-9.4.1212.jar:/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.34.jar:/home/knoldus/.ivy2/cache/com.h2database/h2/jars/h2-1.4.193.jar:/home/knoldus/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 3.526711242 s[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Desktop/Assignment-01-Slick/src/test/scala/components/EmployeeComponentTest.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	insert, employeeTableAutoInc.[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/Desktop/Slick-Scala-Testing/target/scala-2.12/test-classes:/home/knoldus/Desktop/Slick-Scala-Testing/target/scala-2.12/classes:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/bundles/slick-hikaricp_2.12-3.2.0.jar:/home/knoldus/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/knoldus/.ivy2/cache/org.postgresql/postgresql/bundles/postgresql-9.4.1212.jar:/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.34.jar:/home/knoldus/.ivy2/cache/com.h2database/h2/jars/h2-1.4.193.jar:/home/knoldus/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.877568529 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	executionContext, unconstrainedEquality, convertToEqualizer, convertAssertionToFutureAssertion.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	executionContext, unconstrainedEquality, convertToEqualizer, convertAssertionToFutureAssertion.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala by /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala by /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala by /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala, /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/providers/H2Provider.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, h2Url, $asInstanceOf, equals, asInstanceOf, synchronized, db, $isInstanceOf, randomDB, notifyAll, isInstanceOf, driver, ==, clone, $init$, toString, !=, getClass, ne, H2Provider, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala: Set(==, H2Provider)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/ProjectComponent.scala: Set(==, H2Provider)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/DependentComponentTest.scala: Set(==, H2Provider)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/HelloSpec.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Desktop/Slick-Scala-Testing/src/test/scala/components/EmployeeComponentTest.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	executionContext, unconstrainedEquality, convertToEqualizer, convertAssertionToFutureAssertion.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
